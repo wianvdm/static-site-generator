@@ -1,0 +1,9 @@
+{
+  "name": "@my-ssg/cms",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"CMS placeholder — not yet implemented\"",
+    "build": "echo \"CMS placeholder — not yet implemented\""
+  }
+}

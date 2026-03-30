@@ -1,0 +1,1 @@
+export { themeTokensSchema } from './theme-tokens.schema';

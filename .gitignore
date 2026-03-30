@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.output/
+.tanstack/
+.turbo/
+*.tsbuildinfo
+
+# Auto-generated route tree
+routeTree.gen.ts
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local

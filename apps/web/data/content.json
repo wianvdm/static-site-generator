@@ -1,0 +1,32 @@
+{
+  "navbar": {
+    "sectionId": "navbar",
+    "layout": "Navbar1",
+    "logoText": "MyBrand",
+    "actions": [
+      { "label": "Home", "action": { "type": "internal", "href": "/" } },
+      { "label": "About", "action": { "type": "anchor", "anchorId": "about" } },
+      { "label": "Contact", "action": { "type": "external", "href": "https://example.com" } }
+    ]
+  },
+  "hero": {
+    "sectionId": "hero",
+    "layout": "Hero1",
+    "heading": "Welcome to MyBrand",
+    "subheading": "Build something amazing today.",
+    "ctaLabel": "Get Started",
+    "ctaAction": { "type": "anchor", "anchorId": "cta" }
+  },
+  "cta": {
+    "sectionId": "cta",
+    "layout": "Cta1",
+    "heading": "Ready to start?",
+    "buttonLabel": "Contact Us",
+    "buttonAction": { "type": "external", "href": "https://example.com/contact" }
+  },
+  "footer": {
+    "sectionId": "footer",
+    "layout": "Footer1",
+    "copyright": "© 2026 MyBrand. All rights reserved."
+  }
+}
