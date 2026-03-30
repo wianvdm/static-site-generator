@@ -1,4 +1,7 @@
+# Dependencies
 node_modules/
+
+# Build outputs
 dist/
 .output/
 .tanstack/
@@ -7,6 +10,16 @@ dist/
 
 # Auto-generated route tree
 routeTree.gen.ts
+
+# AI / Editor rules
+.clinerules/
+
+# Generated site output
+Generator/
+Site/
+
+# Internal documentation & plans
+docs/
 
 # Editor directories
 .vscode/
@@ -20,3 +33,10 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
