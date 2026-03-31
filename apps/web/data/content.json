@@ -4,8 +4,8 @@
     "layout": "Navbar1",
     "logoText": "MyBrand",
     "actions": [
-      { "label": "Home", "action": { "type": "internal", "href": "/" } },
-      { "label": "About", "action": { "type": "anchor", "anchorId": "about" } },
+      { "label": "Home", "action": { "type": "route", "to": "/" } },
+      { "label": "About", "action": { "type": "scroll", "targetId": "about" } },
       { "label": "Contact", "action": { "type": "external", "href": "https://example.com" } }
     ]
   },
@@ -15,7 +15,7 @@
     "heading": "Welcome to MyBrand",
     "subheading": "Build something amazing today.",
     "ctaLabel": "Get Started",
-    "ctaAction": { "type": "anchor", "anchorId": "cta" }
+    "ctaAction": { "type": "scroll", "targetId": "cta" }
   },
   "cta": {
     "sectionId": "cta",
@@ -27,6 +27,10 @@
   "footer": {
     "sectionId": "footer",
     "layout": "Footer1",
-    "copyright": "© 2026 MyBrand. All rights reserved."
+    "copyright": "© 2026 MyBrand. All rights reserved.",
+    "links": [
+      { "label": "Privacy", "action": { "type": "external", "href": "https://example.com/privacy" } },
+      { "label": "Terms", "action": { "type": "external", "href": "https://example.com/terms" } }
+    ]
   }
 }

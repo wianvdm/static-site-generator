@@ -1,4 +1,11 @@
 export { baseNavbarSchema } from './base-navbar.schema';
 export { navbar1Schema } from './navbar-1.schema';
+export { baseHeroSchema } from './base-hero.schema';
 export { hero1Schema } from './hero-1.schema';
+export { baseCtaSchema } from './base-cta.schema';
+export { cta1Schema } from './cta-1.schema';
+export { baseFooterSchema } from './base-footer.schema';
+export { footer1Schema } from './footer-1.schema';
+export { baseGallerySchema } from './base-gallery.schema';
+export { gallery1Schema } from './gallery-1.schema';
 export type { SectionConfig } from './section-config.type';
