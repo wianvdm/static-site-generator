@@ -1,11 +1,15 @@
-import { z } from 'zod';
 import {
   navbar1Schema,
+  navbar2Schema,
+  navbar3Schema,
+  navbar5Schema,
+  sidebar1Schema,
   hero1Schema,
   cta1Schema,
   footer1Schema,
   gallery1Schema,
 } from '@static-site-generator/schema';
+import { z } from 'zod';
 import { componentMap } from './component-map';
 
 const configSchema = z.object({
@@ -22,6 +26,10 @@ export type SiteConfig = z.infer<typeof configSchema>;
 
 const sectionSchemaMap: Record<string, z.ZodSchema> = {
   Navbar1: navbar1Schema,
+  Navbar2: navbar2Schema,
+  Navbar3: navbar3Schema,
+  Navbar5: navbar5Schema,
+  Sidebar1: sidebar1Schema,
   Hero1: hero1Schema,
   Cta1: cta1Schema,
   Footer1: footer1Schema,

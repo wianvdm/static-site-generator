@@ -2,12 +2,19 @@
   "navbar": {
     "sectionId": "navbar",
     "layout": "Navbar1",
-    "logoText": "MyBrand",
+    "logoSrc": "/logo.jpg",
+    "logoText": "GreenBuild",
+    "brandTagline": "Sustainable Solutions",
+    "phone": "(123) 456-7890",
     "actions": [
-      { "label": "Home", "action": { "type": "route", "to": "/" } },
-      { "label": "About", "action": { "type": "scroll", "targetId": "about" } },
-      { "label": "Contact", "action": { "type": "external", "href": "https://example.com" } }
-    ]
+      { "label": "About Us", "action": { "type": "route", "to": "/about" } },
+      { "label": "Services", "action": { "type": "route", "to": "/services" } },
+      { "label": "Contact Us", "action": { "type": "route", "to": "/contact" } }
+    ],
+    "cta": {
+      "label": "Get a Quote",
+      "action": { "type": "route", "to": "/quote" }
+    }
   },
   "hero": {
     "sectionId": "hero",

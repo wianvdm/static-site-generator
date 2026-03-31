@@ -1,5 +1,10 @@
 export { baseNavbarSchema } from './base-navbar.schema';
 export { navbar1Schema } from './navbar-1.schema';
+export { navbar2Schema } from './navbar-2.schema';
+export { navbar3Schema } from './navbar-3.schema';
+export { navbar5Schema } from './navbar-5.schema';
+export { baseSidebarSchema } from './base-sidebar.schema';
+export { sidebar1Schema } from './sidebar-1.schema';
 export { baseHeroSchema } from './base-hero.schema';
 export { hero1Schema } from './hero-1.schema';
 export { baseCtaSchema } from './base-cta.schema';
