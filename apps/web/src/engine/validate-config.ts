@@ -32,8 +32,16 @@ export function validateConfig(raw: unknown): SiteConfig {
   return configSchema.parse(raw);
 }
 
+function toPascalCase(kebab: string): string {
+  return kebab
+    .split('-')
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join('');
+}
+
 export function validateSection(layout: string, data: unknown): unknown {
-  const schema = sectionSchemaMap[layout];
+  const normalized = toPascalCase(layout);
+  const schema = sectionSchemaMap[normalized];
   if (!schema) {
     console.warn(`[validate-config] No schema found for layout "${layout}"`);
     return data;

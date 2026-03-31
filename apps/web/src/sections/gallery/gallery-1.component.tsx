@@ -10,13 +10,13 @@ interface GalleryImage {
   caption?: string;
 }
 
-const galleryModules = import.meta.glob<{ default: string }>(
+const galleryModules = import.meta.glob<string>(
   '../../public/assets/gallery/**/*.{png,jpg,jpeg,svg,webp}',
   { eager: true, query: '?url', import: 'default' },
 );
 
 const discoveredImages: GalleryImage[] = Object.values(galleryModules).map(
-  (mod) => ({ src: mod.default }),
+  (mod) => ({ src: mod }),
 );
 
 export function Gallery1({ title, items }: Gallery1Props) {
