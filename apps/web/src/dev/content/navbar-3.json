@@ -1,0 +1,17 @@
+{
+  "sectionId": "navbar",
+  "layout": "Navbar3",
+  "logoSrc": "/logo.jpg",
+  "logoText": "DevBrand",
+  "brandTagline": "Navbar 3 Preview",
+  "actions": [
+    { "label": "Home", "action": { "type": "route", "to": "/" } },
+    { "label": "Products", "action": { "type": "route", "to": "/products" } },
+    { "label": "Blog", "action": { "type": "route", "to": "/blog" } },
+    { "label": "Support", "action": { "type": "route", "to": "/support" } }
+  ],
+  "cta": {
+    "label": "Sign Up Free",
+    "action": { "type": "route", "to": "/signup" }
+  }
+}

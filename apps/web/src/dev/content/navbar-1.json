@@ -1,0 +1,18 @@
+{
+  "sectionId": "navbar",
+  "layout": "Navbar1",
+  "logoSrc": "/logo.jpg",
+  "logoText": "DevBrand",
+  "brandTagline": "Navbar 1 Preview",
+  "phone": "(555) 123-4567",
+  "actions": [
+    { "label": "Home", "action": { "type": "route", "to": "/" } },
+    { "label": "About", "action": { "type": "route", "to": "/about" } },
+    { "label": "Services", "action": { "type": "route", "to": "/services" } },
+    { "label": "Contact", "action": { "type": "route", "to": "/contact" } }
+  ],
+  "cta": {
+    "label": "Get Started",
+    "action": { "type": "route", "to": "/get-started" }
+  }
+}

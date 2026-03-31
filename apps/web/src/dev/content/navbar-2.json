@@ -1,0 +1,11 @@
+{
+  "sectionId": "navbar",
+  "layout": "Navbar2",
+  "logoText": "DevBrand",
+  "brandTagline": "Navbar 2 Preview",
+  "actions": [
+    { "label": "Home", "action": { "type": "route", "to": "/" } },
+    { "label": "Features", "action": { "type": "route", "to": "/features" } },
+    { "label": "Pricing", "action": { "type": "route", "to": "/pricing" } }
+  ]
+}

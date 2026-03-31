@@ -1,0 +1,8 @@
+{
+  "sectionId": "hero",
+  "layout": "Hero1",
+  "heading": "Build Something Amazing",
+  "subheading": "The fastest way to create beautiful websites with our dev toolbar preview.",
+  "ctaLabel": "Get Started",
+  "ctaAction": { "type": "scroll", "targetId": "cta" }
+}

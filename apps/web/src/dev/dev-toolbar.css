@@ -1,0 +1,120 @@
+.dev-toolbar {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 9999;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.dev-toolbar__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  border: 1px solid var(--border, #333);
+  background: var(--card, #1e1e1e);
+  color: var(--card-foreground, #fff);
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: auto;
+  transition: opacity 0.15s;
+}
+
+.dev-toolbar__toggle:hover {
+  opacity: 0.85;
+}
+
+.dev-toolbar__panel {
+  position: absolute;
+  bottom: 48px;
+  right: 0;
+  width: 260px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: var(--card, #1e1e1e);
+  border: 1px solid var(--border, #333);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 16px rgba(0 0 0 / 30%);
+}
+
+.dev-toolbar__header {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted-foreground, #888);
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border, #333);
+}
+
+/* Section tabs */
+.dev-toolbar__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.dev-toolbar__tab {
+  padding: 4px 8px;
+  font-size: 11px;
+  border-radius: 4px;
+  border: 1px solid var(--border, #333);
+  background: transparent;
+  color: var(--muted-foreground, #888);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.dev-toolbar__tab:hover {
+  background: var(--secondary, #222);
+  color: var(--secondary-foreground, #ddd);
+}
+
+.dev-toolbar__tab--active {
+  background: var(--primary, #3b82f6);
+  color: var(--primary-foreground, #fff);
+  border-color: var(--primary, #3b82f6);
+}
+
+/* Variants list */
+.dev-toolbar__variants-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted-foreground, #888);
+  margin-bottom: 6px;
+}
+
+.dev-toolbar__variants-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.dev-toolbar__variant-btn {
+  padding: 4px 10px;
+  font-size: 11px;
+  border-radius: 4px;
+  border: 1px solid var(--border, #333);
+  background: transparent;
+  color: var(--muted-foreground, #888);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.dev-toolbar__variant-btn:hover {
+  background: var(--secondary, #222);
+  color: var(--secondary-foreground, #ddd);
+}
+
+.dev-toolbar__variant-btn--active {
+  background: var(--primary, #3b82f6);
+  color: var(--primary-foreground, #fff);
+  border-color: var(--primary, #3b82f6);
+}

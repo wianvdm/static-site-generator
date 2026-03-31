@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { SectionsRenderer } from '../../src/engine';
+import { DevWrapper } from '../../src/dev';
 
 export const Route = createFileRoute('/')({
   component: HomePage,
@@ -8,7 +9,7 @@ export const Route = createFileRoute('/')({
 function HomePage() {
   return (
     <main className="min-h-screen">
-      <SectionsRenderer />
+      {import.meta.env.DEV ? <DevWrapper /> : <SectionsRenderer />}
     </main>
   );
 }

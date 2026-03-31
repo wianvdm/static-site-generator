@@ -13,13 +13,15 @@ const registry = new Map<string, ComponentType<Record<string, any>>>(
 );
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const content = contentData as Record<string, any>;
+const defaultContent = contentData as Record<string, any>;
 
 interface SectionsRendererProps {
   config?: SiteConfig;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  content?: Record<string, any>;
 }
 
-export function SectionsRenderer({ config = validatedConfig }: SectionsRendererProps) {
+export function SectionsRenderer({ config = validatedConfig, content = defaultContent }: SectionsRendererProps) {
   return (
     <>
       {config.sections.map((section, index) => {
