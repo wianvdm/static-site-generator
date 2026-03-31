@@ -1,5 +1,5 @@
 /* Theme tokens — all visual styling flows from here */
-:root {
+@theme {
   /* Colors */
   --color-primary: #2563eb;
   --color-primary-foreground: #ffffff;
@@ -12,6 +12,14 @@
   --color-border: #e2e8f0;
   --color-accent: #166534;
   --color-accent-foreground: #ffffff;
+  --color-card: #ffffff;
+  --color-card-foreground: #0f172a;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #0f172a;
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #fafafa;
+  --color-input: #e2e8f0;
+  --color-ring: #2563eb;
 
   /* Spacing */
   --spacing-section: 4rem;
@@ -20,6 +28,7 @@
   --radius-sm: 0.375rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
+  --radius-xl: 0.75rem;
 
   /* Shadows */
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
