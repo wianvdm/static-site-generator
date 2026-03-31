@@ -1,0 +1,11 @@
+{
+  "sectionId": "gallery",
+  "layout": "Gallery1",
+  "title": "Our Portfolio",
+  "items": [
+    { "src": "/gallery/image1.jpg", "alt": "Project 1", "caption": "Modern web design" },
+    { "src": "/gallery/image2.jpg", "alt": "Project 2", "caption": "Mobile application" },
+    { "src": "/gallery/image3.jpg", "alt": "Project 3", "caption": "Brand identity" },
+    { "src": "/gallery/image4.jpg", "alt": "Project 4", "caption": "E-commerce platform" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "sectionId": "navbar",
+  "layout": "Navbar5",
+  "logoText": "DevBrand",
+  "actions": [
+    { "label": "Home", "action": { "type": "route", "to": "/" } },
+    { "label": "About", "action": { "type": "route", "to": "/about" } }
+  ],
+  "phone": "(555) 999-0000"
+}

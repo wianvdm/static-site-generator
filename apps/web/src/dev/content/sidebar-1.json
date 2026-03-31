@@ -1,0 +1,19 @@
+{
+  "sectionId": "sidebar",
+  "layout": "Sidebar1",
+  "logoSrc": "/logo.jpg",
+  "logoText": "DevBrand",
+  "brandTagline": "Sidebar 1 Preview",
+  "tagline": "Navigate your world",
+  "actions": [
+    { "label": "Dashboard", "action": { "type": "route", "to": "/dashboard" }, "icon": "layout-dashboard", "isActive": true },
+    { "label": "Analytics", "action": { "type": "route", "to": "/analytics" }, "icon": "bar-chart-3" },
+    { "label": "Settings", "action": { "type": "route", "to": "/settings" }, "icon": "settings" },
+    { "label": "Help", "action": { "type": "route", "to": "/help" }, "icon": "help-circle" }
+  ],
+  "cta": {
+    "label": "Upgrade Plan",
+    "action": { "type": "route", "to": "/upgrade" }
+  },
+  "ctaSubtext": "Unlock all features"
+}

@@ -1,0 +1,10 @@
+{
+  "sectionId": "footer",
+  "layout": "Footer1",
+  "copyright": "© 2026 DevBrand. All rights reserved.",
+  "links": [
+    { "label": "Privacy Policy", "action": { "type": "external", "href": "https://example.com/privacy" } },
+    { "label": "Terms of Service", "action": { "type": "external", "href": "https://example.com/terms" } },
+    { "label": "Contact", "action": { "type": "route", "to": "/contact" } }
+  ]
+}

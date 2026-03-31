@@ -1,0 +1,8 @@
+{
+  "sectionId": "cta",
+  "layout": "Cta1",
+  "heading": "Ready to Launch?",
+  "subheading": "Start your free trial today and see the difference.",
+  "buttonLabel": "Start Free Trial",
+  "buttonAction": { "type": "external", "href": "https://example.com/signup", "openInNewTab": true }
+}
