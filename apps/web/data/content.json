@@ -1,23 +1,20 @@
 {
   "navbar": {
     "sectionId": "navbar",
-    "layout": "navbar-1",
+    "layout": "Navbar1",
+    "logoSrc": "/logo.jpg",
     "logoText": "GreenBuild",
-    "logoSubtitle": "Sustainable Solutions",
-    "logoImageUrl": "/logo.jpg",
-    "brandTagline": "Building a greener future, one project at a time.",
-    "phoneNumber": "(123) 456-7890",
-    "leftLinks": [
+    "brandTagline": "Sustainable Solutions",
+    "phone": "(123) 456-7890",
+    "actions": [
       { "label": "About Us", "action": { "type": "route", "to": "/about" } },
-      { "label": "Services", "action": { "type": "route", "to": "/services" } }
-    ],
-    "rightLinks": [
+      { "label": "Services", "action": { "type": "route", "to": "/services" } },
       { "label": "Contact Us", "action": { "type": "route", "to": "/contact" } }
     ],
-    "ctaLabel": "Get a Quote",
-    "ctaAction": { "type": "route", "to": "/quote" },
-    "sectionLabel": "Navigation",
-    "activeIndex": 1
+    "cta": {
+      "label": "Get a Quote",
+      "action": { "type": "route", "to": "/quote" }
+    }
   },
   "hero": {
     "sectionId": "hero",
