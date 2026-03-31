@@ -14,7 +14,7 @@ type RegistryTuple = readonly [string, unknown, unknown];
 
 const demoContentModules = import.meta.glob<Record<string, unknown>>(
   './content/*.json',
-  { eager: true },
+  { eager: true, import: 'default' },
 );
 
 function groupVariantsByType(map: readonly RegistryTuple[]): Map<string, VariantOption[]> {
