@@ -1,13 +1,23 @@
 {
   "navbar": {
     "sectionId": "navbar",
-    "layout": "Navbar1",
-    "logoText": "MyBrand",
-    "actions": [
-      { "label": "Home", "action": { "type": "route", "to": "/" } },
-      { "label": "About", "action": { "type": "scroll", "targetId": "about" } },
-      { "label": "Contact", "action": { "type": "external", "href": "https://example.com" } }
-    ]
+    "layout": "navbar-1",
+    "logoText": "GreenBuild",
+    "logoSubtitle": "Sustainable Solutions",
+    "logoImageUrl": "/logo.jpg",
+    "brandTagline": "Building a greener future, one project at a time.",
+    "phoneNumber": "(123) 456-7890",
+    "leftLinks": [
+      { "label": "About Us", "action": { "type": "route", "to": "/about" } },
+      { "label": "Services", "action": { "type": "route", "to": "/services" } }
+    ],
+    "rightLinks": [
+      { "label": "Contact Us", "action": { "type": "route", "to": "/contact" } }
+    ],
+    "ctaLabel": "Get a Quote",
+    "ctaAction": { "type": "route", "to": "/quote" },
+    "sectionLabel": "Navigation",
+    "activeIndex": 1
   },
   "hero": {
     "sectionId": "hero",

@@ -10,6 +10,8 @@
   --color-muted: #f1f5f9;
   --color-muted-foreground: #64748b;
   --color-border: #e2e8f0;
+  --color-accent: #166534;
+  --color-accent-foreground: #ffffff;
 
   /* Spacing */
   --spacing-section: 4rem;
