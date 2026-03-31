@@ -1,7 +1,6 @@
 import { z } from 'zod';
+import { baseHeroSchema } from './base-hero.schema';
 
-// TODO: implement hero-1 schema
-export const hero1Schema = z.object({
-  sectionId: z.string(),
+export const hero1Schema = baseHeroSchema.extend({
   layout: z.literal('Hero1'),
 });

@@ -4,6 +4,7 @@
     { "type": "navbar", "layout": "navbar-1" },
     { "type": "hero", "layout": "hero-1" },
     { "type": "cta", "layout": "cta-1" },
+    { "type": "gallery", "layout": "gallery-1" },
     { "type": "footer", "layout": "footer-1" }
   ]
 }
